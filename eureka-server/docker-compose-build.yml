@@ -1,0 +1,11 @@
+version: '3'
+services:
+  eureka-server1:
+    build: .
+    ports:
+      - 8001:8001
+
+  eureka-server2:
+      build: .
+      ports:
+        - 8002:8002
